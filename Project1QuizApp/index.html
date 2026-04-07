@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic Quiz application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="theam.css">
+</head>
+
+<body>
+    <div class="quizContainer">
+        <div class="landing hidden column">
+            <h1>Quiz time!</h1>
+            <h3>Test your knowledge with some questions</h3>
+            <button class="btn StartBtn">Start quiz </button>
+        </div>
+        <div class="TestContainer hidden column">
+            <div class="Question_Time">
+                <h2 class="question"></h2>
+                <span><span id="stopwatch">0</span>sec</span>
+            </div>
+            <div class="live_change flex">
+                <div class="attempt"><span class="out"></span>out of <span class="of"></span></div>
+                <div class="score">
+                    score: <span id="scoreDom">0</span>
+                </div>
+            </div>
+            <div class="Option flex column">
+
+            </div>
+            <div class="progressbar">
+                <div class="progress">
+
+                </div>
+            </div>
+        </div>
+        <div class="resultSheet flex column">
+            <h1>Quiz Result</h1>
+            <div class="result flex column">
+                <h3 id="score">Your score <span class="out">0</span> outOf <span class="of">5</span></h3>
+                <h2 class="resultMassage">good Try !! Keep fun</h2>
+            </div>
+            <div class="button">
+                <div class="btn reset">Restart</div>
+                <div class="btn quit">Quite</div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

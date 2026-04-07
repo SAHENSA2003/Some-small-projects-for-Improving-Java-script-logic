@@ -1,0 +1,30 @@
+:root{
+   /*font-color*/
+   --first-color:#ffff;
+   --second-color:#dfdada;
+   --third-color:#a7a5a5;
+   --forth-color:#6b6767;
+
+   /*border radius*/
+   --radius-sm:5px;
+   --radius-md:10px;
+   --radius-lg:20px;
+   --radius-xl:25px;
+   --radius-xxl:30px;
+   --round:50%;
+
+   /*padding*/
+
+   --padding-sm:10px;
+   --padding-md:15px;
+   --padding-lg:20px;
+   --padding-xl:25px;
+   --padding-xxl:35px;
+
+   /*gap*/
+   --gutter-sm:10px;
+   --gutter-md:15px;
+   --gutter-lg:20px;
+   --gutter-xl:25px;
+   --gutter-xxl:35px;
+}
